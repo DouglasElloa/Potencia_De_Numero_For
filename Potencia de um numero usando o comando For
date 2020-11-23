@@ -1,0 +1,18 @@
+package potenciadeumnumero_douglas_oliveira;
+import java.util.Scanner;
+ 
+public class Potenciadeumnumero_Douglas_Oliveira 
+
+    public static void main(String[] args) 
+    {
+     Scanner leitor = new Scanner (System.in);
+     System.out.println("Digite um numero");
+     int numero = leitor.nextInt();
+     int potencia;
+     System.out.println("A Potência de 0 a 15 do número é: ");
+     for (int i=0; i<=15;i++)
+     {potencia = (int)Math.pow(numero,i);
+     System.out.println (numero + "x" + i+"="+ potencia);
+        
+    }}
+    }
